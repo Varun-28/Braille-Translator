@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url("img/full-bloom.png");
+    font-family: 'Francois One', sans-serif;
+    background-size: contain;
+    color: black;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline black;
+}
+.description,#output_textarea_title{
+    text-align: center;
+}
+main{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#translate_btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: black;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 6em;
+    margin: 15px auto;
+    transition: 0.3s;
+}
+#translate_btn:hover{
+    transform: scale(1.05);
+}
+.text{
+    width: 90%;
+    height: 15vh;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 1rem;
+    font-weight: 600;
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    main{
+        width: 80%;
+    }   
+}

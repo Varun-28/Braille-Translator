@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braille Translator</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">  
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="heading">Braille Translator</h1>
+    <main>
+        <p class="description">A language translation app that translate your English statements to Braille</p>
+        <textarea class="text" id="english" placeholder="put your sentence in English here"></textarea>
+        <button id="translate_btn">Translate</button>
+        <p id="output_textarea_title">Translation into Braille will come here 👇</p>
+        <textarea class="text" id="braille_lang"></textarea>
+    </main>
+    <!-- javascript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
